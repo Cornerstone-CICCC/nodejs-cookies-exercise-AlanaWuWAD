@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Account</h1>
+        <h2>Log In</h2>
+        <form action="/login" method="post">
+            <label for="">
+                Username:
+                <input type="text" name="username" placeholder="Enter name" required/>
+            </label>
+            <label for="">
+                Password:
+                <input type="password" name="password" placeholder="password">
+            </label>
+            <button type="submit">Log In</button>
+        </form>
+        <hr/>
+        <h2>Create Account</h2>
+        <form action="/register" method="post">
+            <label for="">
+                Username:
+                <input type="text" name="username" placeholder="Enter name">
+                <input type="password" name="password" placeholder="password">
+            </label>
+            <button type="submit">Sing Up</button>
+        </form>
+    </div>
+</body>
+</html>
